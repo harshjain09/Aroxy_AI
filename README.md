@@ -41,20 +41,4 @@ All endpoints prefixed with `/tasks`
 | PUT    | `/tasks/:id`   | Update a task       |
 | DELETE | `/tasks/:id`   | Delete a task       |
 
-##  Folder Structure
-```
-task-manager/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.jsx
-│   │   ├── api.js
-│   │   ├── index.js
-│   ├── tailwind.config.js
-├── README.md
-```
+
