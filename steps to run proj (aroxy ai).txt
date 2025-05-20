@@ -1,0 +1,26 @@
+steps to run proj (aroxy ai) :
+
+backend : 
+open terminal 
+go to project directory using (cd) 
+install dependencies using (npm install)
+create .env file using ( 1) echo "PORT=5000" >> .env
+			 2) echo "MONGO_URI=mongodb://localhost:27017/task-manager" >> .env )
+start backend server using (npm run dev)
+
+
+frontend : 
+open new terminal 
+go to project directory using (cd) 
+install dependencies using (npm install)
+start frontend using (npm start)
+
+database :
+open new terminal 
+initialize mongodb using (mongosh) 
+Switch to database using (use task-manager)
+View all tasks using (db.tasks.find().pretty())
+
+the DB Is Defined in .env file 
+backend .env file should have: MONGO_URI=mongodb://localhost:27017/task-manager
+
