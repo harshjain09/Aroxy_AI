@@ -1,9 +1,7 @@
 # Task Manager (MERN Stack)
-
 A full-stack task manager app built using the MERN stack. Users can create, update, delete, and view tasks with a clean, responsive UI.
 
 ##  Tech Stack
-
 - **Frontend**: React, Tailwind CSS, Axios
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
@@ -12,14 +10,12 @@ A full-stack task manager app built using the MERN stack. Users can create, upda
 ##  Getting Started
 
 ###  Clone the project:
-
 ```bash
 git clone <repo-url>
 cd task-manager
 ```
 
 ###  Start Backend
-
 ```bash
 cd backend
 npm install
@@ -29,7 +25,6 @@ npm run dev
 ```
 
 ###  Start Frontend
-
 ```bash
 cd ../frontend
 npm install
@@ -37,7 +32,6 @@ npm start
 ```
 
 ##  API Routes
-
 All endpoints prefixed with `/tasks`
 
 | Method | Route          | Description         |
@@ -48,7 +42,6 @@ All endpoints prefixed with `/tasks`
 | DELETE | `/tasks/:id`   | Delete a task       |
 
 ##  Folder Structure
-
 ```
 task-manager/
 ├── backend/
