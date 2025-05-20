@@ -2,16 +2,12 @@
 
 A full-stack task manager app built using the MERN stack. Users can create, update, delete, and view tasks with a clean, responsive UI.
 
----
-
 ##  Tech Stack
 
 - **Frontend**: React, Tailwind CSS, Axios
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **Other**: CORS, dotenv, mongoose
-
----
 
 ##  Getting Started
 
@@ -21,8 +17,6 @@ A full-stack task manager app built using the MERN stack. Users can create, upda
 git clone <repo-url>
 cd task-manager
 ```
-
----
 
 ###  Start Backend
 
@@ -34,8 +28,6 @@ echo MONGO_URI=mongodb://localhost:27017/task-manager >> .env
 npm run dev
 ```
 
----
-
 ###  Start Frontend
 
 ```bash
@@ -43,8 +35,6 @@ cd ../frontend
 npm install
 npm start
 ```
-
----
 
 ##  API Routes
 
@@ -56,8 +46,6 @@ All endpoints prefixed with `/tasks`
 | POST   | `/tasks`       | Create a task       |
 | PUT    | `/tasks/:id`   | Update a task       |
 | DELETE | `/tasks/:id`   | Delete a task       |
-
----
 
 ##  Folder Structure
 
@@ -77,5 +65,3 @@ task-manager/
 │   ├── tailwind.config.js
 ├── README.md
 ```
-
----
