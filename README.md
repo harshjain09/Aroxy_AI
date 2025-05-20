@@ -4,7 +4,7 @@ A full-stack task manager app built using the MERN stack. Users can create, upda
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Frontend**: React, Tailwind CSS, Axios
 - **Backend**: Node.js, Express
@@ -13,9 +13,9 @@ A full-stack task manager app built using the MERN stack. Users can create, upda
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 📁 Clone the project:
+###  Clone the project:
 
 ```bash
 git clone <repo-url>
@@ -24,7 +24,7 @@ cd task-manager
 
 ---
 
-### ▶️ Start Backend
+###  Start Backend
 
 ```bash
 cd backend
@@ -36,7 +36,7 @@ npm run dev
 
 ---
 
-### 💻 Start Frontend
+###  Start Frontend
 
 ```bash
 cd ../frontend
@@ -46,7 +46,7 @@ npm start
 
 ---
 
-## 📚 API Routes
+##  API Routes
 
 All endpoints prefixed with `/tasks`
 
@@ -59,7 +59,7 @@ All endpoints prefixed with `/tasks`
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 task-manager/
